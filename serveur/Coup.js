@@ -1,4 +1,5 @@
 "use strict";
+//DELANNAY Jordan
 exports.__esModule = true;
 function coupImpossible(coup, joueur) {
     console.log(coup);
@@ -18,7 +19,7 @@ function jouerCoup(coup, echiquier, joueur) {
     var colonneDepart = -1;
     var ligneDepart = -1;
     var pion;
-    var ligne = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']; // ce tableau sert à associer les numéros de colonne dans le tableau à leur lettre respective dans l'echiquier
+    var ligne = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']; // ce tableau sert à associer les numéros de colonne dans le tableau à leur lettre respective dans l'echiquier
     var table = coup.split('');
     /* le but de cette fonction est de recupérer le nom de la piece à déplacé et la case cible dans le "coup à jouer" dans 2 variables distinctes
     * le "coup à jouer" est d'abord split en un tableau de caractère, puis on sépare le nom de la piece et la case cible

@@ -1,5 +1,13 @@
 "use strict";
+//DELANNAY Jordan 
 exports.__esModule = true;
+/*
+* Programme principal du serveur d'échecs en ligne
+* @Author: Quentin Tonneau
+* @Date: 2018-03-15 22:23:16
+* @Last Modified by: Quentin Tonneau
+* @Last Modified time: 2018-03-19 11:45:29
+*/
 //Imports des modules serveur web
 var express = require("express");
 var bodyParser = require("body-parser");

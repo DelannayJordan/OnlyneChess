@@ -1,11 +1,15 @@
+// DELANNAY Jordan
+
+/*module contenant les Fonctions qui creent et initialise un echiquier
+*d'abord creer un tableau contenant 8 piece (1 ligne)
+*ensuite creer un tableau contenant 8 lignes
+*on peut alors initialisé le tableau crée
+*/
+
 export {creerEchiquier};
 export {initialierEchiquier};
 import {Piece} from './Piece';
 
-/*Fonction qui creer un echiquier. on precède comme suit:
-*d'abord creer une piece vide puis un tableau contenant 8 piece vides (1 ligne)
-*ensuite creer un tableau vide contenant 8 lignes
-*/
 function creerEchiquier() : Array<any> {
 	
 	let echiquier = Array<any>();

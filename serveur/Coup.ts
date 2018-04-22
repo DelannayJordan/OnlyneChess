@@ -1,3 +1,11 @@
+//DELANNAY Jordan
+
+/*module contenant les fonctions necessaire a l'execution d'un 'coup'
+*une fonction qui traite et execute le 'coup à jouer'
+*deux fonctions qui affiche un message sur la console, dependant de l'execution ou non du coup à jouer 
+*la fonction 'alert' ne fonctionnant pas, j'ai utiliser la fonction 'console.log'
+*/
+
 export {jouerCoup};
 export {coupImpossible};
 export {coupEffectue};
@@ -23,7 +31,7 @@ function jouerCoup (coup: string, echiquier: Piece[],joueur: string) : Piece[] {
 	let colonneDepart: number = -1;
 	let ligneDepart: number = -1;
 	let pion: string;
-	let ligne: string[] = ['a','b','c','d','e','f','g','h'] // ce tableau sert à associer les numéros de colonne dans le tableau à leur lettre respective dans l'echiquier
+	let ligne: string[] = ['A','B','C','D','E','F','G','H'] // ce tableau sert à associer les numéros de colonne dans le tableau à leur lettre respective dans l'echiquier
 	let table: Array<any> = coup.split('');
 	
 	/* le but de cette fonction est de recupérer le nom de la piece à déplacé et la case cible dans le "coup à jouer" dans 2 variables distinctes 

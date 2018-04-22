@@ -1,5 +1,6 @@
+//DELANNAY Jordan
 
-/**
+/*
  * Fonction principale executée après le chargement de la page
  * Initialise l'échiquier en fonction de la variable "echiquier"
  */

@@ -1,9 +1,6 @@
 "use strict";
+// DELANNAY Jordan
 exports.__esModule = true;
-/*Fonction qui creer un echiquier. on precède comme suit:
-*d'abord creer une piece vide puis un tableau contenant 8 piece vides (1 ligne)
-*ensuite creer un tableau vide contenant 8 lignes
-*/
 function creerEchiquier() {
     var echiquier = Array();
     for (var i = 0; i <= 7; i++) {
